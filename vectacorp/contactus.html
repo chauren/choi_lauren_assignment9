@@ -22,7 +22,6 @@
 		$(document).ready(function(){
 			$('#responsive-menu').mobileMenu();
             $("#tooltip").tooltip();
-            $("#companysize").selectmenu();
             $("#contactsubmit").button();
             
 	</script>
@@ -139,6 +138,7 @@
 	]
         });
     });
+    $("#companysize").selectmenu();
     $("#open").click(function(){
         $(this).hide();
         $( "#dialog" ).dialog('open');
